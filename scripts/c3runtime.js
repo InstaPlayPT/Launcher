@@ -7489,6 +7489,7 @@ SetWrapping(w){this._SetWrapByWord(w===0)}}};
 		C3.Plugins.filechooser.Cnds.OnChanged,
 		C3.Plugins.Sparsha_qrCode.Acts.ReadQr,
 		C3.Plugins.filechooser.Exps.FileURLAt,
+		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Browser.Acts.GoToURL,
 		C3.Plugins.Sparsha_qrCode.Exps.data,
 		C3.Plugins.Touch.Cnds.OnTouchStart,
@@ -7611,6 +7612,7 @@ SetWrapping(w){this._SetWrapByWord(w===0)}}};
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject(0);
 		},
+		() => 1,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
