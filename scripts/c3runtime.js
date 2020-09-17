@@ -7491,7 +7491,7 @@ SetWrapping(w){this._SetWrapByWord(w===0)}}};
 		C3.Plugins.Sparsha_qrCode.Acts.ReadQr,
 		C3.Plugins.filechooser.Exps.FileURLAt,
 		C3.Plugins.System.Acts.Wait,
-		C3.Plugins.Browser.Acts.GoToURL,
+		C3.Plugins.Browser.Acts.GoToURLWindow,
 		C3.Plugins.Sparsha_qrCode.Exps.data
 		];
 	};
@@ -7615,7 +7615,8 @@ SetWrapping(w){this._SetWrapByWord(w===0)}}};
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
-		}
+		},
+		() => "NewWindow"
 	];
 }
 
