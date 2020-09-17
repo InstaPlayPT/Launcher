@@ -7486,13 +7486,14 @@ SetWrapping(w){this._SetWrapByWord(w===0)}}};
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
-		C3.Plugins.filechooser.Acts.Click,
 		C3.Plugins.filechooser.Cnds.OnChanged,
 		C3.Plugins.Sparsha_qrCode.Acts.ReadQr,
 		C3.Plugins.filechooser.Exps.FileURLAt,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Browser.Acts.GoToURLWindow,
-		C3.Plugins.Sparsha_qrCode.Exps.data
+		C3.Plugins.Sparsha_qrCode.Exps.data,
+		C3.Plugins.Touch.Cnds.OnTouchStart,
+		C3.Plugins.filechooser.Acts.Click
 		];
 	};
 	self.C3_JsPropNameTable = [
